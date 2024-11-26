@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg bg-body-tertiary py-2 px-1">
+		<nav className="container navbar sticky-top navbar-expand-lg bg-body-tertiary py-2 px-1">
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
 					Omery Tours

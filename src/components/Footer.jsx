@@ -2,7 +2,7 @@ import { FaPhoneVolume, FaEnvelope } from "react-icons/fa6";
 
 const Footer = () => {
 	return (
-		<footer className="py-2">
+		<footer className="py-2 mt-4">
 			<div className="container text-center">
 				<div>
 					<div>

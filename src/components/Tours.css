@@ -1,0 +1,17 @@
+/* Default behavior for images */
+section.py-5 img {
+	width: 100%; /* Full width of column by default */
+	height: auto; /* Maintain aspect ratio */
+	object-fit: cover; /* Ensure image fills its container */
+	border-radius: 0.5rem; /* Rounded corners */
+}
+
+/* Custom dimensions for large screens (>=1200px) */
+@media (min-width: 1200px) {
+	section.py-5 img {
+		width: 500px; /* Set specific width */
+		height: 300px; /* Set specific height */
+		object-fit: cover; /* Ensures the image fills the specified dimensions */
+		margin: 0 auto; /* Center-align image if needed */
+	}
+}

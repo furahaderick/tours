@@ -1,0 +1,19 @@
+.card {
+	border-radius: 0.5rem; /* Slightly rounded corners */
+	overflow: hidden; /* Ensure the image and content stay inside the card boundaries */
+}
+
+.card-img-top {
+	object-fit: cover; /* Ensures the image fills the top section without distortion */
+	height: 100px; /* Set a consistent height for all card images */
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.card-text {
+	color: #555; /* Muted text for better readability */
+}
