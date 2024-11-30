@@ -1,6 +1,11 @@
-import backgroundImage from "../assets/images/elephs2.jpg";
+import { useState } from "react";
 
-const Hero = () => {
+const Hero = ({
+	heading,
+	subheading = "",
+	backgroundImage,
+	isHome = false,
+}) => {
 	const heroStyle = {
 		backgroundImage: `url(${backgroundImage})`,
 		backgroundSize: "cover",
@@ -37,23 +42,31 @@ const Hero = () => {
 		>
 			<div style={overlayStyle}></div>
 			<div style={contentStyle} className="text-center px-3">
-				<h1 className="display-4 fw-bold">Explore East Africa</h1>
-				<p className="lead">
-					Embark on an unforgettable journey through Rwanda's breathtaking
-					landscapes and rich cultures with{" "}
-					<mark>
-						<b>
-							<em>Omery</em>
-						</b>
-					</mark>
-					, your trusted guide to East Africa.
-				</p>
-				<button
-					style={buttonStyle}
-					className="btn btn-outline-light btn-lg mt-3"
-				>
-					Book Now
-				</button>
+				<h1 className="display-4 fw-bold">{heading}</h1>
+				{isHome ? (
+					<>
+						<p className="lead">
+							Embark on an unforgettable journey through Rwanda's
+							breathtaking landscapes and rich cultures with{" "}
+							<mark>
+								<b>
+									<em>Omery</em>
+								</b>
+							</mark>
+							, your trusted guide to East Africa.
+						</p>
+						<button
+							style={buttonStyle}
+							className="btn btn-outline-light btn-lg mt-3"
+						>
+							Book Now
+						</button>
+					</>
+				) : (
+					<>
+						<p className="lead">{subheading}</p>
+					</>
+				)}
 			</div>
 		</div>
 	);

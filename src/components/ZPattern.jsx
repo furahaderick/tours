@@ -1,17 +1,13 @@
 import React from "react";
 
-import { sections } from "./_data.js";
-import "./Tours.css";
+import "./ZPattern.css";
 
-const Tours = () => {
+const ZPattern = ({ heading, subheading, sections, bgColor = "white" }) => {
 	return (
-		<section className="py-5">
+		<section className={`py-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
-				<h2>Our Tours</h2>
-				<p>
-					Select from a variety of curated tours designed to showcase the
-					best of Rwanda.
-				</p>
+				<h2>{heading}</h2>
+				<p>{subheading}</p>
 			</div>
 			<div className="container">
 				{sections.map((section, index) => (
@@ -42,4 +38,4 @@ const Tours = () => {
 	);
 };
 
-export default Tours;
+export default ZPattern;

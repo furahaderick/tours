@@ -1,15 +1,15 @@
 import React from "react";
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 
-import { cards } from "./_data.js";
+// import { cards } from "./_data.js";
 import "./Cards.css";
 
-const Cards = () => {
+const Cards = ({ heading, subheading, cards, bgColor = "white" }) => {
 	return (
-		<section className="py-5 mb-5">
+		<section className={`py-5 mb-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
-				<h2>Your Trusted Travel Partner</h2>
-				<p>Experience the difference with Omery Tours.</p>
+				<h2>{heading}</h2>
+				<p>{subheading}</p>
 			</div>
 			<div className="container">
 				<div className="row">
@@ -24,11 +24,11 @@ const Cards = () => {
 								/>
 								{/* card body */}
 								<div className="card-body">
-									<h5 className="card-title">{card.heading}</h5>
+									<h5 className="card-title">{card.title}</h5>
 									<p className="card-text">{card.text}</p>
 									{/* <button className="btn btn-outline-secondary btn-lg mt-3 fs-6">Read More</button> */}
 									<p>
-										<a class="link-offset-2 text-secondary" href="#">
+										<a className="link-offset-2 text-secondary" href="#">
 											Read More
 											<FaSquareArrowUpRight className="m-1" />
 										</a>
