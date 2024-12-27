@@ -2,7 +2,14 @@ import React from "react";
 
 import "./ZPattern.css";
 
-const ZPattern = ({ heading, subheading, sections, bgColor = "white" }) => {
+const ZPattern = ({
+	heading,
+	subheading,
+	sections,
+	bgColor = "white",
+	hasLinks = false,
+	linkTitle = "",
+}) => {
 	return (
 		<section className={`py-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
@@ -30,7 +37,26 @@ const ZPattern = ({ heading, subheading, sections, bgColor = "white" }) => {
 						<div className="col-md-6">
 							<h4>{section.title}</h4>
 							<p>{section.text}</p>
+							{/* {hasLinks ? (
+								<a
+									href={section.link}
+									className="btn btn-secondary mt-3"
+									role="button"
+								>
+									{linkTitle}
+								</a>
+							) : null} */}
+							{hasLinks && linkTitle && (
+								<a
+									href={section.link}
+									className="btn btn-secondary mt-3"
+									role="button"
+								>
+									{linkTitle}
+								</a>
+							)}
 						</div>
+						{/* Link */}
 					</div>
 				))}
 			</div>

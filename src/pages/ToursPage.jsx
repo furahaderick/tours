@@ -7,7 +7,6 @@ import Cards from "../components/Cards.jsx";
 import { toursPageSection, homePageSections } from "../components/_data.js";
 
 const ToursPage = () => {
-
 	return (
 		<>
 			<Hero
@@ -19,6 +18,8 @@ const ToursPage = () => {
 				heading="Our Featured Tours"
 				subheading="Discover the unique adventures we offer."
 				cards={homePageSections}
+				hasLinks={true}
+				linkTitle="View Experiences"
 			/>
 			<ZPattern
 				heading="What Our Clients Say"

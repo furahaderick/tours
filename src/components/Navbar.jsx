@@ -5,7 +5,7 @@ const Navbar = () => {
 		<nav className="container navbar sticky-top navbar-expand-lg bg-body-tertiary py-2 px-1">
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
-					Omery Tours
+					Elena & Emilia Tours
 				</Link>
 				<button
 					className={`navbar-toggler collapsed`}

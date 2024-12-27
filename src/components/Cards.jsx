@@ -4,7 +4,14 @@ import { FaSquareArrowUpRight } from "react-icons/fa6";
 // import { cards } from "./_data.js";
 import "./Cards.css";
 
-const Cards = ({ heading, subheading, cards, bgColor = "white" }) => {
+const Cards = ({
+	heading,
+	subheading,
+	cards,
+	bgColor = "white",
+	hasLinks = false,
+	linkTitle = "",
+}) => {
 	return (
 		<section className={`py-5 mb-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
@@ -28,10 +35,15 @@ const Cards = ({ heading, subheading, cards, bgColor = "white" }) => {
 									<p className="card-text">{card.text}</p>
 									{/* <button className="btn btn-outline-secondary btn-lg mt-3 fs-6">Read More</button> */}
 									<p>
-										<a className="link-offset-2 text-secondary" href="#">
-											Read More
-											<FaSquareArrowUpRight className="m-1" />
-										</a>
+										{hasLinks && linkTitle && (
+											<a
+												className="link-offset-2 text-secondary"
+												href={card.link}
+											>
+												{linkTitle}
+												<FaSquareArrowUpRight className="m-1" />
+											</a>
+										)}
 									</p>
 								</div>
 							</div>

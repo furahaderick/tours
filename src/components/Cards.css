@@ -1,6 +1,6 @@
 .card {
 	border-radius: 0.5rem; /* Slightly rounded corners */
-	overflow: hidden; /* Ensure the image and content stay inside the card boundaries */
+	overflow: hidden; /* Ensures the image and content stay inside the card boundaries */
 }
 
 .card-img-top {

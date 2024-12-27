@@ -50,10 +50,10 @@ const Hero = ({
 							breathtaking landscapes and rich cultures with{" "}
 							<mark>
 								<b>
-									<em>Omery</em>
+									<em>Tours Elena & Emilia</em>
 								</b>
 							</mark>
-							, your trusted guide to East Africa.
+							, your trusted guide into East Africa.
 						</p>
 						<button
 							style={buttonStyle}
@@ -63,9 +63,7 @@ const Hero = ({
 						</button>
 					</>
 				) : (
-					<>
-						<p className="lead">{subheading}</p>
-					</>
+					<p className="lead">{subheading}</p>
 				)}
 			</div>
 		</div>

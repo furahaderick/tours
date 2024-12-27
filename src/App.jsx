@@ -13,27 +13,16 @@ import AboutUsPage from "./pages/AboutUsPage.jsx";
 import ToursPage from "./pages/ToursPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import ContactUsPage from "./pages/ContactUsPage.jsx";
+import ExperiencesPage from "./pages/ExperiencesPage.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
-	const router = createBrowserRouter(
-		createRoutesFromElements(
-			<Route path="/" element={<MainLayout />}>
-				<Route index element={<HomePage />} />
-				<Route path="/about-us" element={<AboutUsPage />} />
-				<Route path="/tours" element={<ToursPage />} />
-				<Route path="/blog" element={<BlogPage />} />
-				<Route path="/contact-us" element={<ContactUsPage />} />
-			</Route>
-		)
-	);
-
 	return (
 		<>
 			<BrowserRouter>
 				{/* <ScrollToTop />
 				<RouterProvider router={router} /> */}
-                <ScrollToTop />
+				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<MainLayout />}>
 						<Route index element={<HomePage />} />
@@ -41,11 +30,17 @@ const App = () => {
 						<Route path="/tours" element={<ToursPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/contact-us" element={<ContactUsPage />} />
+						<Route path="/tours/:tourId/experiences" element={<ExperiencesPage />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>
 		</>
 	);
 };
+
+/**
+ * homepage - add experiences below tours section, add link to experiences in tours section
+ * create experiences page (cards)
+ */
 
 export default App;

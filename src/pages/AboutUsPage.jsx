@@ -30,6 +30,8 @@ const AboutUsPage = () => {
 				heading="Our Adventures"
 				subheading="Memorable journeys through East Africa"
 				sections={aboutUsPageSection2}
+                hasLinks={true}
+                linkTitle="View Experiences"
 			/>
 		</>
 	);
