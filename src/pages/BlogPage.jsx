@@ -7,7 +7,6 @@ import Cards from "../components/Cards.jsx";
 import { blogPageSection, blogPageCards } from "../components/_data.js";
 
 const BlogPage = () => {
-    
 	return (
 		<>
 			<Hero
@@ -16,15 +15,15 @@ const BlogPage = () => {
 				backgroundImage="https://images.pexels.com/photos/259358/pexels-photo-259358.jpeg?auto=compress&cs=tinysrgb&w=2000"
 			/>
 			<OverlayCards
-                cards={blogPageCards}
+				cards={blogPageCards}
 				heading="Rwanda Uncovered"
 				subheading="Your guide to the best of Rwanda's landscapes and culture"
 			/>
-            <Cards
+			<Cards
 				heading="Your Trusted Travel Partner"
 				subheading="Experience the difference with Omery Tours."
 				cards={blogPageSection}
-                bgColor="body-secondary"
+				bgColor="body-secondary"
 			/>
 		</>
 	);

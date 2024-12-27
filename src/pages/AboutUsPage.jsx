@@ -4,10 +4,13 @@ import Hero from "../components/Hero.jsx";
 import Cards from "../components/Cards.jsx";
 import ZPattern from "../components/ZPattern.jsx";
 
-import { aboutUsPageCards, aboutUsPageSection1, aboutUsPageSection2 } from "../components/_data.js";
+import {
+	aboutUsPageCards,
+	aboutUsPageSection1,
+	aboutUsPageSection2,
+} from "../components/_data.js";
 
 const AboutUsPage = () => {
-    
 	return (
 		<>
 			<Hero
@@ -30,8 +33,8 @@ const AboutUsPage = () => {
 				heading="Our Adventures"
 				subheading="Memorable journeys through East Africa"
 				sections={aboutUsPageSection2}
-                hasLinks={true}
-                linkTitle="View Experiences"
+				hasLinks={true}
+				linkTitle="View Experiences"
 			/>
 		</>
 	);

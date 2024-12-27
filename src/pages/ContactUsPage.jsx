@@ -6,7 +6,6 @@ import Cards from "../components/Cards.jsx";
 import { contactUsPageCards } from "../components/_data.js";
 
 const ContactUsPage = () => {
-    
 	return (
 		<>
 			<Hero

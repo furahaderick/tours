@@ -1,4 +1,3 @@
-
 import Hero from "../components/Hero.jsx";
 import ZPattern from "../components/ZPattern.jsx";
 import Cards from "../components/Cards.jsx";
@@ -6,7 +5,6 @@ import Cards from "../components/Cards.jsx";
 import { homePageCards, homePageSections } from "../components/_data.js";
 
 const HomePage = () => {
-    
 	return (
 		<>
 			<Hero
@@ -19,8 +17,8 @@ const HomePage = () => {
 				subheading="Select from a variety of curated tours designed to showcase the
 					best of Rwanda."
 				sections={homePageSections}
-                hasLinks={true}
-                linkTitle="View Experiences"
+				hasLinks={true}
+				linkTitle="View Experiences"
 			/>
 			<Cards
 				heading="Your Trusted Travel Partner"
