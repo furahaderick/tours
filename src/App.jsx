@@ -14,6 +14,7 @@ import ToursPage from "./pages/ToursPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import ContactUsPage from "./pages/ContactUsPage.jsx";
 import ExperiencesPage from "./pages/ExperiencesPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
 							path="/tours/:tourId/experiences"
 							element={<ExperiencesPage />}
 						/>
+						<Route path="*" element={<NotFoundPage />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

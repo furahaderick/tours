@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import { experiencesData } from "../components/_data.js";
 
@@ -18,8 +17,7 @@ const ExperiencesPage = ({ bgColor = "white" }) => {
 		<section className={`container py-5 mb-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
 				<h2>
-					Experiences in {tourId.charAt(0).toUpperCase() + tourId.slice(1)}{" "}
-					Tour
+					The {tourId.charAt(0).toUpperCase() + tourId.slice(1)} Experience
 				</h2>
 			</div>
 			<div className="row">
