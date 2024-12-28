@@ -12,6 +12,8 @@ const ZPattern = ({
 	linkTitle = "",
 	isHome = false,
 }) => {
+	sections = isHome ? sections.slice(0, 3) : sections;
+
 	return (
 		<section className={`py-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
@@ -19,7 +21,7 @@ const ZPattern = ({
 				<p>{subheading}</p>
 			</div>
 			<div className="container">
-				{sections.slice(0, 3).map((section, index) => (
+				{sections.map((section, index) => (
 					<div
 						className={`row align-items-center mb-5 ${
 							index % 2 === 0 ? "" : "flex-row-reverse"
