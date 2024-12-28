@@ -19,6 +19,7 @@ const HomePage = () => {
 				sections={homePageSections}
 				hasLinks={true}
 				linkTitle="View Experiences"
+				isHome={true}
 			/>
 			<Cards
 				heading="Your Trusted Travel Partner"

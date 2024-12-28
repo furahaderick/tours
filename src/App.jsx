@@ -21,8 +21,6 @@ const App = () => {
 	return (
 		<>
 			<BrowserRouter>
-				{/* <ScrollToTop />
-				<RouterProvider router={router} /> */}
 				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<MainLayout />}>

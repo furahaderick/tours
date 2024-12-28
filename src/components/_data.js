@@ -4,20 +4,48 @@ export const homePageSections = [
 		image: "https://images.pexels.com/photos/28136741/pexels-photo-28136741/free-photo-of-bwindi-mountain-gorilla-thinking.jpeg?auto=compress&cs=tinysrgb&w=600", // Replace with your image URL
 		title: "Gorilla Trekking Adventure",
 		text: "Join us on an exhilarating trek through Volcanoes National Park, where you'll have the chance to observe the majestic mountain gorillas in their natural habitat.",
-		link: "/tours/bigogwe/experiences",
+		link: "/tours/gorilla/experiences",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1457519544115-1334f064e427",
-		image: "/images/karegeya.jpeg",
-		title: "Cultural Heritage Tour",
-		text: "Delve into Rwanda's rich history and culture with our guided tour, featuring visits to traditional villages, museums, and local artisan workshops.",
-		link: "/tours/bigogwe/experiences",
+		image: "https://media.istockphoto.com/id/1151572165/photo/kigali-skyline-at-night.jpg?s=612x612&w=0&k=20&c=wzq-tkuIdkFAyWGHrPx-WADRorNta6rs6qKtGUNyn5o=",
+		title: "Kigali City Tour",
+		text: "Discover the vibrant heart of Rwanda by exploring Kigali City, where culture, history, and modernity blend seamlessly to create an unforgettable experience.",
+		link: "/tours/kigali/experiences",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1570188903530-1a836bc3cd6c",
-		image: "https://images.pexels.com/photos/7001090/pexels-photo-7001090.jpeg?auto=compress&cs=tinysrgb&w=600",
-		title: "Wildlife Safari Experience",
-		text: "Experience the thrill of a wildlife safari in Akagera National Park, where you can witness the diverse fauna including elephants, lions, and a variety of bird species.",
+		image: "https://images.pexels.com/photos/19755751/pexels-photo-19755751/free-photo-of-landscape-with-a-mountain-lake-and-clouds.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "Kivu Lake Experience",
+		text: "Escape to the tranquil shores of Lake Kivu, where crystal-clear waters, stunning landscapes, and peaceful retreats await for the perfect getaway.",
+		link: "/tours/kivu/experiences",
+	},
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1570188903530-1a836bc3cd6c",
+		image: "https://images.pexels.com/photos/27065204/pexels-photo-27065204/free-photo-of-a-rhinoceros-and-zebras-standing-near-a-body-of-water.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "Akagera Game Drive & Big 5",
+		text: "Embark on an exciting safari through Akagera National Park and encounter the park's five most fascinating animals, from majestic lions to graceful giraffes, in their natural habitat.",
+		link: "/tours/akagera/experiences",
+	},
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1570188903530-1a836bc3cd6c",
+		image: "https://images.pexels.com/photos/797677/pexels-photo-797677.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "Kinigi Animal tracking",
+		text: "Join us on this fascinating tour, where you'll track and observe some of Rwanda's most iconic wildlife in the stunning landscapes. You won't miss the Buffaloes!",
+		link: "/tours/kinigi/experiences",
+	},
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1614528767034-70de9fe166e0", // Replace with your image URL
+		image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQcaJq1KfkEuoJSBjhbZpFZM2vRnXJIWx3af9ATWudR143Tb1ma6NqhHcb9lYCKZgQYEAl5GDRCLroMQcYrZRGBYbNnrZiQEWE9--Np1g", // Replace with your image URL
+		title: "Nyungwe Forest National Park",
+		text: "Explore the enchanting Nyungwe Forest National Park, where lush rainforests, diverse wildlife, and scenic trails await for an unforgettable adventure in nature.",
+		link: "/tours/nyungwe/experiences",
+	},
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1614528767034-70de9fe166e0", // Replace with your image URL
+		image: "https://ibereryabigogwe.com/storage/services_images/ZiJ1HmUr8CTuJcRsEfCcvj5aQxpyyt-metabHd5Z2djLmpwZw==-.jpg", // Replace with your image URL
+		title: "Bigogwe Breast Tour",
+		text: "Embark on an unforgettable journey to Bigogwe Breast, where you'll experience breathtaking views, serene landscapes, and unforgettable adventures that will leave you wanting more.",
 		link: "/tours/bigogwe/experiences",
 	},
 ];
@@ -219,6 +247,7 @@ export const bigogweBreastTourExperiences = [
 
 export const experiencesData = {
 	bigogwe: [
+		//check
 		{
 			title: "Cow Milking",
 			location: "Bigogwe Breast",
@@ -245,13 +274,14 @@ export const experiencesData = {
 		},
 	],
 	nyungwe: [
+		//check
 		{
 			title: "Trail Hiking",
 			location: "Nyungwe Forest",
 			time: "2 hours",
 			image: "https://media.gettyimages.com/id/1277709783/photo/tourists-trekking-through-the-rainforest-in-virunga-national-park-in-rwanda-to-see-the.jpg?s=612x612&w=0&k=20&c=KDuwkPEOHL64OQOJEwyn9jGWUMM8J6zYWCSdxYu0d6k=",
 			description:
-				"Learn to milk cows with expert guidance, meet friendly farmers, and enjoy fresh milk for an authentic countryside experience.",
+				"Embark on an exhilarating hiking trail, immerse yourself in nature's beauty, and enjoy breathtaking views for an unforgettable adventure.",
 		},
 		{
 			title: "Nature Bonding",
@@ -259,7 +289,7 @@ export const experiencesData = {
 			time: "1.5 hours",
 			image: "https://media.gettyimages.com/id/1270104024/photo/father-carries-son-on-hike-through-forest-trail-in-pacific-northwest.jpg?s=612x612&w=0&k=20&c=NWQEbuvBdhvHpRxfMc6EtPsvK9QrL86kKEQ-s4Ov13A=",
 			description:
-				"Roast fresh corn over a flame, guided by experts. Enjoy the smoky aroma and savor the sweet, golden kernels.",
+				"Reconnect with nature through a peaceful nature bonding experience, where you’ll unwind, explore serene landscapes, and rejuvenate your spirit in the great outdoors.",
 		},
 		{
 			title: "Birds Experience",
@@ -267,7 +297,165 @@ export const experiencesData = {
 			time: "1 hour",
 			image: "https://media.gettyimages.com/id/1310445171/photo/lilac-breasted-roller-in-flight.jpg?s=612x612&w=0&k=20&c=zPxt1jvuTEUerpSAs0Qoe8norxVQkhYdrfsMvXmAW3Y=",
 			description:
-				"Experience Amaraba and Intore dances with singing. Learn moves, feel the rhythm, and celebrate with local performers.",
+				"Discover the vibrant world of birds as you explore diverse habitats, observe rare species, and enjoy the beauty of Rwanda’s rich avian life.",
+		},
+		{
+			title: "Flora Experience",
+			location: "Nyungwe Forest",
+			time: "1 hour",
+			image: "https://images.pexels.com/photos/2323650/pexels-photo-2323650.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Venture into the lush Nyungwe Forest and explore its stunning array of flowers, trees, and vegetation, uncovering the rich biodiversity that thrives in this tropical paradise.",
+		},
+	],
+	gorilla: [
+		// {
+		// 	title: "Trail Hiking",
+		// 	location: "Nyungwe Forest",
+		// 	time: "2 hours",
+		// 	image: "https://media.gettyimages.com/id/1277709783/photo/tourists-trekking-through-the-rainforest-in-virunga-national-park-in-rwanda-to-see-the.jpg?s=612x612&w=0&k=20&c=KDuwkPEOHL64OQOJEwyn9jGWUMM8J6zYWCSdxYu0d6k=",
+		// 	description:
+		// 		"Learn to milk cows with expert guidance, meet friendly farmers, and enjoy fresh milk for an authentic countryside experience.",
+		// },
+		// {
+		// 	title: "Nature Bonding",
+		// 	location: "Nyungwe Forest",
+		// 	time: "1.5 hours",
+		// 	image: "https://media.gettyimages.com/id/1270104024/photo/father-carries-son-on-hike-through-forest-trail-in-pacific-northwest.jpg?s=612x612&w=0&k=20&c=NWQEbuvBdhvHpRxfMc6EtPsvK9QrL86kKEQ-s4Ov13A=",
+		// 	description:
+		// 		"Roast fresh corn over a flame, guided by experts. Enjoy the smoky aroma and savor the sweet, golden kernels.",
+		// },
+		// {
+		// 	title: "Birds Experience",
+		// 	location: "Nyungwe Forest",
+		// 	time: "1 hour",
+		// 	image: "https://media.gettyimages.com/id/1310445171/photo/lilac-breasted-roller-in-flight.jpg?s=612x612&w=0&k=20&c=zPxt1jvuTEUerpSAs0Qoe8norxVQkhYdrfsMvXmAW3Y=",
+		// 	description:
+		// 		"Experience Amaraba and Intore dances with singing. Learn moves, feel the rhythm, and celebrate with local performers.",
+		// },
+	],
+	kigali: [
+		//check
+		{
+			title: "Nyamirambo Women's Center",
+			location: "Nyamirambo",
+			time: "2 hours",
+			image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/cd/d7/f0/nyamirambo-women-s-center.jpg?w=1000&h=800&s=1",
+			description:
+				"Visit the Nyamirambo Women's Center and support an inspiring NGO empowering women through education, crafts, and community-driven initiatives.",
+		},
+		{
+			title: "Kigali Genocide Memorial",
+			location: "Gisozi",
+			time: "1.5 hours",
+			image: "https://lh5.googleusercontent.com/p/AF1QipPyzW0x-FVCUZSmTm-QDPsxQtx6m-bzhTquKh9f=w540-h312-n-k-no",
+			description:
+				"Visit the Kigali Genocide Memorial, a place of remembrance and reflection, honoring lives lost and teaching the importance of unity and peace.",
+		},
+		{
+			title: "Kigali Drive",
+			location: "Kigali City",
+			time: "3 hour",
+			image: "https://media.istockphoto.com/id/1151572165/photo/kigali-skyline-at-night.jpg?s=612x612&w=0&k=20&c=wzq-tkuIdkFAyWGHrPx-WADRorNta6rs6qKtGUNyn5o=",
+			description:
+				"Take a drive through Kigali's modern landmarks and vibrant new establishments, then explore local markets filled with fresh produce, colorful fruits, and unique handmade crafts.",
+		},
+	],
+	kivu: [
+		//check
+		{
+			title: "Napoleon's Hat Island",
+			location: "Kivu Belt",
+			time: "2 hours",
+			image: "https://e64pmstr2pu.exactdn.com/wp-content/uploads/2017/06/Shore-of-Lake-Kivu-Karongi-Kibuye-Western-Rwanda.jpg?strip=all&lossy=0&ssl=1",
+			description:
+				"Set sail to the breathtaking Napoleon's Hat Island along the Kivu Belt, where you can explore its unique shape, serene waters, and stunning natural beauty for an unforgettable adventure.",
+		},
+		{
+			title: "Congo Nile Trails Hiking",
+			location: "Lake Kivu",
+			time: "1.5 hours",
+			image: "https://media.gettyimages.com/id/1277709783/photo/tourists-trekking-through-the-rainforest-in-virunga-national-park-in-rwanda-to-see-the.jpg?s=612x612&w=0&k=20&c=KDuwkPEOHL64OQOJEwyn9jGWUMM8J6zYWCSdxYu0d6k=",
+			description:
+				"Embark on an exhilarating hiking trail, immerse yourself in nature's beauty, and enjoy breathtaking views for an unforgettable adventure.",
+		},
+		{
+			title: "Lake Kivu Islands",
+			location: "Lake Kivu",
+			time: "4 hour",
+			image: "https://media.gettyimages.com/id/2139122372/photo/fishing-boats-on-kivu-lake-karongi-rwanda.jpg?s=612x612&w=0&k=20&c=m6vtnNodFQkFERGytz7EDQI-ctHtUuIiayZDy7jFj0c=",
+			description:
+				"Embark on a scenic boat trip across Lake Kivu, visiting its picturesque islands, each offering tranquil views, unique charm, and a peaceful escape from the ordinary.",
+		},
+	],
+	akagera: [
+		//check
+		{
+			title: "Lions",
+			location: "Akagera National Park",
+			time: "1.5 hours",
+			image: "https://images.pexels.com/photos/724626/pexels-photo-724626.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Get up close to the majestic kings of the savannah on an unforgettable lion tracking adventure in their natural habitat.",
+		},
+		{
+			title: "Elephants",
+			location: "Akagera National Park",
+			time: "1.5 hours",
+			image: "https://images.pexels.com/photos/13043862/pexels-photo-13043862.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Encounter the gentle giants of the wild on an unforgettable journey to observe elephants in their natural habitat.",
+		},
+		{
+			title: "Rhinos",
+			location: "Akagera National Park",
+			time: "1 hour",
+			image: "https://images.pexels.com/photos/6947813/pexels-photo-6947813.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Embark on an exciting adventure to see rhinos up close, marveling at these incredible creatures in their natural surroundings.",
+		},
+		{
+			title: "Zebras",
+			location: "Akagera National Park",
+			time: "1 hour",
+			image: "https://images.pexels.com/photos/789628/pexels-photo-789628.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Experience the beauty of zebras in their natural habitat, where their striking stripes create unforgettable safari moments.",
+		},
+		{
+			title: "Giraffes",
+			location: "Akagera National Park",
+			time: "1 hour",
+			image: "https://images.pexels.com/photos/17817239/pexels-photo-17817239/free-photo-of-giraffes-in-summer-park.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Enjoy the elegance of giraffes as you observe these towering beauties gracefully roaming the savannah.",
+		},
+	],
+	kinigi: [
+		//check
+		{
+			title: "Buffalo Tracking",
+			location: "Musanze District",
+			time: "2 hours",
+			image: "https://images.pexels.com/photos/797677/pexels-photo-797677.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Embark on a thrilling buffalo tracking adventure in Musanze District and get up close to these majestic creatures in their natural habitat.",
+		},
+		{
+			title: "Elephant Tracking",
+			location: "Volcanoes National Park",
+			time: "1.5 hours",
+			image: "https://images.pexels.com/photos/59989/elephant-herd-of-elephants-african-bush-elephant-africa-59989.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Experience the thrill of elephant tracking, as you follow these magnificent creatures through the wild landscapes of Rwanda.",
+		},
+		{
+			title: "Primate & Birds Experience",
+			location: "Volcanoes National Park",
+			time: "1 hour",
+			image: "https://www.volcanoesrwanda.org/wp-content/uploads/2017/01/rwanda-primates.jpg",
+			description:
+				"Discover the playful golden monkeys and diverse bird species, even spotted along the roads, for a unique wildlife experience in Rwanda.",
 		},
 	],
 };

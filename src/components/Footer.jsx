@@ -9,7 +9,8 @@ const Footer = () => {
 						<FaPhoneVolume className="mx-1" /> 5555-5555-5555
 					</div>
 					<div>
-						<FaEnvelope className="mx-1" /> makena-tours@eastafrica.com
+						<FaEnvelope className="mx-1" />{" "}
+						elena-emilia-tours@eastafrica.com
 					</div>
 				</div>
 				<hr />

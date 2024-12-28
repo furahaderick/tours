@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./ZPattern.css";
 
@@ -9,6 +10,7 @@ const ZPattern = ({
 	bgColor = "white",
 	hasLinks = false,
 	linkTitle = "",
+	isHome = false,
 }) => {
 	return (
 		<section className={`py-5 bg-${bgColor}`}>
@@ -17,7 +19,7 @@ const ZPattern = ({
 				<p>{subheading}</p>
 			</div>
 			<div className="container">
-				{sections.map((section, index) => (
+				{sections.slice(0, 3).map((section, index) => (
 					<div
 						className={`row align-items-center mb-5 ${
 							index % 2 === 0 ? "" : "flex-row-reverse"
@@ -59,6 +61,17 @@ const ZPattern = ({
 						{/* Link */}
 					</div>
 				))}
+				{isHome && (
+					<div className="text-center mt-5 pt-5">
+						<a
+							href="/tours"
+							className="mt-3 btn btn-outline-secondary"
+							role="button"
+						>
+							VIEW ALL TOURS
+						</a>
+					</div>
+				)}
 			</div>
 		</section>
 	);

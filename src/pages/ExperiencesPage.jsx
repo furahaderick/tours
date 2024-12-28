@@ -16,15 +16,15 @@ const ExperiencesPage = ({ bgColor = "white" }) => {
 	return (
 		<section className={`container py-5 mb-5 bg-${bgColor}`}>
 			<div className="text-center mb-5">
-				<h2>
-					The {tourId.charAt(0).toUpperCase() + tourId.slice(1)} Experience
-				</h2>
+				<h2>The {tourId.charAt(0).toUpperCase() + tourId.slice(1)} Trip</h2>
 			</div>
 			<div className="row">
 				{experiences.length === 0 ? (
-					<p className="text-center">
-						No experiences found for this tour.
-					</p>
+					<div style={{ height: "50vh" }}>
+						<p className="text-center">
+							No experiences found for this tour.
+						</p>
+					</div>
 				) : (
 					experiences.map((exp, index) => (
 						<div className="col-md-4 mb-4" key={index}>
