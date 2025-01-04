@@ -22,7 +22,7 @@ const HomePage = () => {
 				isHome={true}
 			/>
 			<Cards
-				heading="Your Trusted Travel Partner"
+				heading="Our Services"
 				subheading="Experience the difference with Omery Tours."
 				cards={homePageCards}
 			/>

@@ -48,20 +48,27 @@ export const homePageSections = [
 		text: "Embark on an unforgettable journey to Bigogwe Breast, where you'll experience breathtaking views, serene landscapes, and unforgettable adventures that will leave you wanting more.",
 		link: "/tours/bigogwe/experiences",
 	},
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1614528767034-70de9fe166e0", // Replace with your image URL
+		image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/King%27s_palace_in_Nyanza.jpg", // Replace with your image URL
+		title: "Nyanza King's Palace",
+		text: "Step back in time at Nyanza King's Palace, where you'll discover rich history, traditional culture, and captivating stories that will leave you inspired.",
+		link: "/tours/nyanza/experiences",
+	},
 ];
 
 export const homePageCards = [
+	{
+		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1641381618749-60aebaf59f32",
+		image: "https://images.pexels.com/photos/10822358/pexels-photo-10822358.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "Tourist Car Provision",
+		text: "At Elena & Emilia Tours, we provide reliable and comfortable vehicles to enhance your travel experience. Our well-maintained fleet is perfect for exploring Rwanda’s cities and countryside with ease. Whether you choose self-drive or chauffeur services, we ensure your journey is both convenient and secure.",
+	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1600713453546-b292a489b0b6",
 		image: "/images/resting-on-cow.jpeg",
 		title: "Commitment to Safety",
 		text: "At Elena & Emilia Tours, the safety of our clients is our top priority. We adhere to the highest standards of safety and hygiene, ensuring that your travel experience is not only enjoyable but also secure. Our guides are trained in first aid and emergency protocols, providing you with peace of mind as you explore the wonders of Rwanda.",
-	},
-	{
-		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1641381618749-60aebaf59f32",
-		image: "https://images.pexels.com/photos/10822358/pexels-photo-10822358.jpeg?auto=compress&cs=tinysrgb&w=600",
-		title: "Sustainable Tourism Practices",
-		text: "We believe in responsible tourism that protects the environment and benefits local communities. Elena & Emilia Tours is committed to sustainable practices, supporting conservation efforts and local businesses. By choosing us, you contribute to the preservation of Rwanda's natural beauty and cultural heritage.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1584496919282-c28e5145e123",
@@ -272,6 +279,14 @@ export const experiencesData = {
 			description:
 				"Experience Amaraba and Intore dances with singing. Learn moves, feel the rhythm, and celebrate with local performers.",
 		},
+		{
+			title: "Hiking Experience",
+			location: "Bigogwe Breast",
+			time: "1 hour",
+			image: "https://ibereryabigogwe.com/storage/packages_images/BSpdjHsc4XpzNewJx8jvSdTZyc41sE-metaQ1VocEppTFBnamozWGlLUTcyeFc4T2Y0OHhsV1l0LW1ldGFSbkZpZVd0dVVWZDNRVVZNUVdoU0xtcHdadz09LS5qcGc=-.jpg",
+			description:
+				"Explore a popular destination for rock climbers and hikers, offering spectacular views of the surrounding countryside.",
+		},
 	],
 	nyungwe: [
 		//check
@@ -360,6 +375,30 @@ export const experiencesData = {
 			description:
 				"Take a drive through Kigali's modern landmarks and vibrant new establishments, then explore local markets filled with fresh produce, colorful fruits, and unique handmade crafts.",
 		},
+		{
+			title: "Quad Bike Riding",
+			location: "Kigali City",
+			time: "1.5 hour",
+			image: "/images/biking.jpeg",
+			description:
+				"Rev up your engines and embark on an exhilarating quad bike ride, exploring rugged terrains and stunning landscapes for an unforgettable adventure.",
+		},
+		{
+			title: "Horse-Back Riding",
+			location: "Kigali City",
+			time: "2 hour",
+			image: "https://images.pexels.com/photos/8919231/pexels-photo-8919231.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Saddle up for an unforgettable horseback riding adventure through Kigali’s scenic landscapes, where you’ll enjoy nature from a unique and thrilling perspective.",
+		},
+		{
+			title: "Archery Experience",
+			location: "Kigali City",
+			time: "1.5 hour",
+			image: "https://cdn.getyourguide.com/img/tour/ac69e116bc54be189d0a0137f4cd865ba85897db4ebbb076efb2a04f888707d6.jpeg/99.jpg",
+			description:
+				"Sharpen your skills and experience the thrill of archery, hitting your mark as you engage in this exciting and rewarding activity.",
+		},
 	],
 	kivu: [
 		//check
@@ -386,6 +425,14 @@ export const experiencesData = {
 			image: "https://media.gettyimages.com/id/2139122372/photo/fishing-boats-on-kivu-lake-karongi-rwanda.jpg?s=612x612&w=0&k=20&c=m6vtnNodFQkFERGytz7EDQI-ctHtUuIiayZDy7jFj0c=",
 			description:
 				"Embark on a scenic boat trip across Lake Kivu, visiting its picturesque islands, each offering tranquil views, unique charm, and a peaceful escape from the ordinary.",
+		},
+		{
+			title: "Kayaking Experience",
+			location: "Lake Kivu",
+			time: "4 hour",
+			image: "https://images.pexels.com/photos/1682744/pexels-photo-1682744.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Glide across the serene waters of Lake Kivu on a kayaking adventure, surrounded by breathtaking views and peaceful nature.",
 		},
 	],
 	akagera: [
@@ -456,6 +503,24 @@ export const experiencesData = {
 			image: "https://www.volcanoesrwanda.org/wp-content/uploads/2017/01/rwanda-primates.jpg",
 			description:
 				"Discover the playful golden monkeys and diverse bird species, even spotted along the roads, for a unique wildlife experience in Rwanda.",
+		},
+	],
+	nyanza: [
+		{
+			title: "Inyambo Cows",
+			location: "Nyanza District",
+			time: "1 hours",
+			image: "https://media.istockphoto.com/id/471497123/photo/the-famous-rwandan-royal-cows.webp?a=1&b=1&s=612x612&w=0&k=20&c=8jVnpS633gmniDFluairlEHqjF0unj6oQUrh-qnMglk=",
+			description:
+				"Visit the stunning Inyambo cows, known for their long, majestic horns, and witness their beauty in the heart of Rwanda’s rich cultural heritage.",
+		},
+		{
+			title: "Huye Historical Museum",
+			location: "Nyanza District",
+			time: "2.5 hours",
+			image: "https://momaa.org/wp-content/uploads/2019/09/Visit-Rwanda-Kings-Palace-Nyanza-Inside-Dome-1920x1280-1024x683.jpg",
+			description:
+				"Explore the Huye Historical Museum, where you can dive into Rwanda's rich past and uncover stories that shape its vibrant culture and heritage.",
 		},
 	],
 };
