@@ -36,7 +36,6 @@ const AboutUsPage = () => {
 				sections={homePageSections}
 				hasLinks={true}
 				linkTitle="View Experiences"
-				isHome={true}
 			/>
 		</>
 	);
