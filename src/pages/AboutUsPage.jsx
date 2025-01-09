@@ -8,7 +8,7 @@ import {
 	aboutUsPageCards,
 	aboutUsPageSection1,
 	aboutUsPageSection2,
-    homePageSections
+	homePageSections,
 } from "../components/_data.js";
 
 const AboutUsPage = () => {
@@ -36,7 +36,7 @@ const AboutUsPage = () => {
 				sections={homePageSections}
 				hasLinks={true}
 				linkTitle="View Experiences"
-                isHome={true}
+				isHome={true}
 			/>
 		</>
 	);
