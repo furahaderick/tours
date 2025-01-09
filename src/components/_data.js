@@ -399,6 +399,14 @@ export const experiencesData = {
 			description:
 				"Sharpen your skills and experience the thrill of archery, hitting your mark as you engage in this exciting and rewarding activity.",
 		},
+		{
+			title: "Bicycle Sporting",
+			location: "Kigali City",
+			time: "1.5 hour",
+			image: "https://kigalirides.rw/static/images/IMG_2504%20comp.jpg",
+			description:
+				"Pedal through Kigali's vibrant streets and picturesque trails, experiencing the city’s charm and energy with an exciting bicycle sporting adventure.",
+		},
 	],
 	kivu: [
 		//check
@@ -427,12 +435,36 @@ export const experiencesData = {
 				"Embark on a scenic boat trip across Lake Kivu, visiting its picturesque islands, each offering tranquil views, unique charm, and a peaceful escape from the ordinary.",
 		},
 		{
-			title: "Kayaking Experience",
+			title: "Kayaking Adventure",
 			location: "Lake Kivu",
 			time: "4 hour",
 			image: "https://images.pexels.com/photos/1682744/pexels-photo-1682744.jpeg?auto=compress&cs=tinysrgb&w=600",
 			description:
 				"Glide across the serene waters of Lake Kivu on a kayaking adventure, surrounded by breathtaking views and peaceful nature.",
+		},
+		{
+			title: "Coffee Brewing Experience",
+			location: "Lake Kivu",
+			time: "2 hour",
+			image: "https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Dive into the art of coffee brewing with skilled agro-technicians, learning the journey from bean to cup for a rich and aromatic experience.",
+		},
+		{
+			title: "River Rafting",
+			location: "Lake Kivu",
+			time: "2 hour",
+			image: "https://images.pexels.com/photos/1732278/pexels-photo-1732278.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Experience the thrill of river rafting on Lake Kivu, navigating its serene waters and enjoying the breathtaking scenery around you.",
+		},
+		{
+			title: "Water Speed Bike",
+			location: "Lake Kivu",
+			time: "2 hour",
+			image: "https://images.pexels.com/photos/50911/pexels-photo-50911.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Gear up for an adrenaline-pumping jet ski adventure, gliding across the waves and soaking in the excitement of Lake Kivu.",
 		},
 	],
 	akagera: [
