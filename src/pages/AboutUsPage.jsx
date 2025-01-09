@@ -8,13 +8,14 @@ import {
 	aboutUsPageCards,
 	aboutUsPageSection1,
 	aboutUsPageSection2,
+    homePageSections
 } from "../components/_data.js";
 
 const AboutUsPage = () => {
 	return (
 		<>
 			<Hero
-				heading="Welcome to Omery Tours"
+				heading="Welcome to Elena & Emilia Tours"
 				subheading="Your gateway to East Africa's wonders"
 				backgroundImage="https://images.pexels.com/photos/15838666/pexels-photo-15838666/free-photo-of-safari-4x4-at-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=2000"
 			/>
@@ -32,9 +33,10 @@ const AboutUsPage = () => {
 			<ZPattern
 				heading="Our Adventures"
 				subheading="Memorable journeys through East Africa"
-				sections={aboutUsPageSection2}
+				sections={homePageSections}
 				hasLinks={true}
 				linkTitle="View Experiences"
+                isHome={true}
 			/>
 		</>
 	);

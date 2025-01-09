@@ -23,7 +23,7 @@ const HomePage = () => {
 			/>
 			<Cards
 				heading="Our Services"
-				subheading="Experience the difference with Omery Tours."
+				subheading="Experience the difference with Elena & Emilia Tours."
 				cards={homePageCards}
 			/>
 		</>
