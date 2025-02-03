@@ -324,30 +324,38 @@ export const experiencesData = {
 		},
 	],
 	gorilla: [
-		// {
-		// 	title: "Trail Hiking",
-		// 	location: "Nyungwe Forest",
-		// 	time: "2 hours",
-		// 	image: "https://media.gettyimages.com/id/1277709783/photo/tourists-trekking-through-the-rainforest-in-virunga-national-park-in-rwanda-to-see-the.jpg?s=612x612&w=0&k=20&c=KDuwkPEOHL64OQOJEwyn9jGWUMM8J6zYWCSdxYu0d6k=",
-		// 	description:
-		// 		"Learn to milk cows with expert guidance, meet friendly farmers, and enjoy fresh milk for an authentic countryside experience.",
-		// },
-		// {
-		// 	title: "Nature Bonding",
-		// 	location: "Nyungwe Forest",
-		// 	time: "1.5 hours",
-		// 	image: "https://media.gettyimages.com/id/1270104024/photo/father-carries-son-on-hike-through-forest-trail-in-pacific-northwest.jpg?s=612x612&w=0&k=20&c=NWQEbuvBdhvHpRxfMc6EtPsvK9QrL86kKEQ-s4Ov13A=",
-		// 	description:
-		// 		"Roast fresh corn over a flame, guided by experts. Enjoy the smoky aroma and savor the sweet, golden kernels.",
-		// },
-		// {
-		// 	title: "Birds Experience",
-		// 	location: "Nyungwe Forest",
-		// 	time: "1 hour",
-		// 	image: "https://media.gettyimages.com/id/1310445171/photo/lilac-breasted-roller-in-flight.jpg?s=612x612&w=0&k=20&c=zPxt1jvuTEUerpSAs0Qoe8norxVQkhYdrfsMvXmAW3Y=",
-		// 	description:
-		// 		"Experience Amaraba and Intore dances with singing. Learn moves, feel the rhythm, and celebrate with local performers.",
-		// },
+		{
+			title: "Golden Monkey tracking",
+			location: "Volcanoes National Park",
+			time: "2 hours",
+			image: "https://images.pexels.com/photos/13098949/pexels-photo-13098949.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Embark on an exciting golden monkey tracking adventure, where you'll observe these playful primates up close in their lush forest habitat.",
+		},
+		{
+			title: "Twin Lakes Burera & Ruhondo",
+			location: "Volcanoes National Park",
+			time: "1.5 hours",
+			image: "https://images.pexels.com/photos/30487817/pexels-photo-30487817/free-photo-of-scenic-landscape-of-lake-surroundings-with-islands.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Discover the breathtaking twin lakes, Burera and Ruhondo, where serene waters, stunning landscapes, and peaceful escapes await.",
+		},
+		{
+			title: "Volcano-Top Hiking",
+			location: "Volcanoes National Park",
+			time: "4 hour",
+			image: "https://images.pexels.com/photos/27929067/pexels-photo-27929067/free-photo-of-ijen-volcano.jpeg?auto=compress&cs=tinysrgb&w=600",
+			description:
+				"Conquer the heights with a thrilling volcano hike, where breathtaking views and an unforgettable adventure await at the summit.",
+		},
+		{
+			title: "Dian Fossey museum",
+			location: "Volcanoes National Park",
+			time: "1.5 hour",
+			image: "https://gorillafund.org/wp-content/uploads/2022/01/DSC03272.png",
+			description:
+				"Step into the legacy of Dian Fossey at her museum, where you’ll explore her groundbreaking work in gorilla conservation and Rwanda’s rich wildlife history.",
+		},
 	],
 	kigali: [
 		//check
