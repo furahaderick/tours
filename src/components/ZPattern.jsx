@@ -66,7 +66,7 @@ const ZPattern = ({
 				{isHome && (
 					<div className="text-center mt-5 pt-5">
 						<Link
-							href="/tours"
+							to="/tours"
 							className="mt-3 btn btn-outline-secondary"
 							role="button"
 						>
