@@ -65,13 +65,13 @@ const ZPattern = ({
 				))}
 				{isHome && (
 					<div className="text-center mt-5 pt-5">
-						<a
+						<Link
 							href="/tours"
 							className="mt-3 btn btn-outline-secondary"
 							role="button"
 						>
 							VIEW ALL TOURS
-						</a>
+						</Link>
 					</div>
 				)}
 			</div>
