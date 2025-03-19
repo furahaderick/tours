@@ -50,7 +50,7 @@ const Hero = ({
 							breathtaking landscapes and rich cultures with{" "}
 							<mark>
 								<b>
-									<em>Tours Elena & Emilia</em>
+									<em>Elena Safaris</em>
 								</b>
 							</mark>
 							, your trusted guide into East Africa.

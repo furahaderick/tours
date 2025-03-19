@@ -15,7 +15,7 @@ const AboutUsPage = () => {
 	return (
 		<>
 			<Hero
-				heading="Welcome to Elena & Emilia Tours"
+				heading="Welcome to Elena Safaris"
 				subheading="Your gateway to East Africa's wonders"
 				backgroundImage="https://images.pexels.com/photos/15838666/pexels-photo-15838666/free-photo-of-safari-4x4-at-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=2000"
 			/>

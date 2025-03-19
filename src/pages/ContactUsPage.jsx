@@ -9,7 +9,7 @@ const ContactUsPage = () => {
 	return (
 		<>
 			<Hero
-				heading="Get in Touch with Elena & Emilia Tours"
+				heading="Get in Touch with Elena Safaris"
 				subheading="We're here to assist you on every step of your journey"
 				backgroundImage="https://images.pexels.com/photos/9308435/pexels-photo-9308435.jpeg?auto=compress&cs=tinysrgb&w=2000"
 			/>

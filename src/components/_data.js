@@ -62,19 +62,19 @@ export const homePageCards = [
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1641381618749-60aebaf59f32",
 		image: "https://images.pexels.com/photos/10822358/pexels-photo-10822358.jpeg?auto=compress&cs=tinysrgb&w=600",
 		title: "Tourist Car Provision",
-		text: "At Elena & Emilia Tours, we provide reliable and comfortable vehicles to enhance your travel experience. Our well-maintained fleet is perfect for exploring Rwanda’s cities and countryside with ease. Whether you choose self-drive or chauffeur services, we ensure your journey is both convenient and secure.",
+		text: "At Elena Safaris, we provide reliable and comfortable vehicles to enhance your travel experience. Our well-maintained fleet is perfect for exploring Rwanda’s cities and countryside with ease. Whether you choose self-drive or chauffeur services, we ensure your journey is both convenient and secure.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1600713453546-b292a489b0b6",
 		image: "/images/resting-on-cow.jpeg",
 		title: "Commitment to Safety",
-		text: "At Elena & Emilia Tours, the safety of our clients is our top priority. We adhere to the highest standards of safety and hygiene, ensuring that your travel experience is not only enjoyable but also secure. Our guides are trained in first aid and emergency protocols, providing you with peace of mind as you explore the wonders of Rwanda.",
+		text: "At Elena Safaris, the safety of our clients is our top priority. We adhere to the highest standards of safety and hygiene, ensuring that your travel experience is not only enjoyable but also secure. Our guides are trained in first aid and emergency protocols, providing you with peace of mind as you explore the wonders of Rwanda.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1584496919282-c28e5145e123",
 		image: "/images/bigogwe.jpeg",
 		title: "Personalized Customer Service",
-		text: "Our dedicated team is here to assist you every step of the way. From the moment you inquire about our tours to the conclusion of your journey, we provide personalized service tailored to your needs. We take the time to understand your preferences, ensuring that your experience with Elena & Emilia Tours is memorable and fulfilling.",
+		text: "Our dedicated team is here to assist you every step of the way. From the moment you inquire about our tours to the conclusion of your journey, we provide personalized service tailored to your needs. We take the time to understand your preferences, ensuring that your experience with Elena Safaris is memorable and fulfilling.",
 	},
 ];
 
@@ -82,14 +82,14 @@ export const aboutUsPageCards = [
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1600713453546-b292a489b0b6",
 		image: "https://media.istockphoto.com/id/1445306118/photo/happy-taxi-and-driver-with-black-man-driving-and-enjoying-career-safari-tour-guide-in-vehicle.jpg?b=1&s=612x612&w=0&k=20&c=ihfPAG3tG-oLIcBDsqvSPuq18_sL4_DIkwj55BnLKV0=",
-		title: "Inception of Elena & Emilia Tours",
-		text: "Founded by a team of avid travelers, Elena & Emilia Tours was born from a deep love for the captivating landscapes and rich cultures of East Africa. Our founders envisioned a travel experience that not only showcases the beauty of Rwanda but also connects travelers with the local communities and wildlife. We believe in responsible tourism that benefits both visitors and the regions we explore.",
+		title: "Inception of Elena Safaris",
+		text: "Founded by a team of avid travelers, Elena Safaris was born from a deep love for the captivating landscapes and rich cultures of East Africa. Our founders envisioned a travel experience that not only showcases the beauty of Rwanda but also connects travelers with the local communities and wildlife. We believe in responsible tourism that benefits both visitors and the regions we explore.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1641381618749-60aebaf59f32",
 		image: "/images/hiking.jpg",
 		title: "Our Mission",
-		text: "At Elena & Emilia Tours, our mission is to provide unforgettable travel experiences that inspire adventure and foster a deeper understanding of East Africa's heritage. We are committed to offering expertly guided tours that highlight the region's natural beauty while promoting sustainable practices. Every tour is designed with the traveler in mind, ensuring comfort, safety, and a profound connection to the land.",
+		text: "At Elena Safaris, our mission is to provide unforgettable travel experiences that inspire adventure and foster a deeper understanding of East Africa's heritage. We are committed to offering expertly guided tours that highlight the region's natural beauty while promoting sustainable practices. Every tour is designed with the traveler in mind, ensuring comfort, safety, and a profound connection to the land.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1584496919282-c28e5145e123",
@@ -209,7 +209,7 @@ export const contactUsPageCards = [
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1600713453546-b292a489b0b6",
 		image: "https://images.unsplash.com/photo-1720608594466-6f7c052d7241?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtpZ2FsaSUyMGJ1aWxkaW5nfGVufDB8fDB8fHww",
 		title: "Our Location",
-		text: "Elena & Emilia Tours is conveniently situated in the heart of Kigali, Rwanda. Our office is easily accessible, providing a central point for all your travel inquiries and bookings. Whether you’re a local or a visitor, you’ll find it easy to reach us. Please refer to the map below for precise directions.",
+		text: "Elena Safaris is conveniently situated in the heart of Kigali, Rwanda. Our office is easily accessible, providing a central point for all your travel inquiries and bookings. Whether you’re a local or a visitor, you’ll find it easy to reach us. Please refer to the map below for precise directions.",
 	},
 	{
 		// image: "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_clip,w_960,h_720,f_auto,q_auto/unsplashcom/photo-1641381618749-60aebaf59f32",

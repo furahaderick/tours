@@ -21,7 +21,7 @@ const BlogPage = () => {
 			/>
 			<Cards
 				heading="Your Trusted Travel Partner"
-				subheading="Experience the difference with Elena & Emilia Tours."
+				subheading="Experience the difference with Elena Safaris."
 				cards={blogPageSection}
 				bgColor="body-secondary"
 			/>
