@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import Hero from "../components/Hero.jsx";
 import ZPattern from "../components/ZPattern.jsx";
 import Cards from "../components/Cards.jsx";

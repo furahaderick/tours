@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import Hero from "../components/Hero.jsx";
 import OverlayCards from "../components/OverlayCards.jsx";
 import Cards from "../components/Cards.jsx";

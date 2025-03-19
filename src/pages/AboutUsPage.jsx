@@ -1,14 +1,10 @@
-import { useEffect } from "react";
-
 import Hero from "../components/Hero.jsx";
 import Cards from "../components/Cards.jsx";
 import ZPattern from "../components/ZPattern.jsx";
 
 import {
-	aboutUsPageCards,
-	aboutUsPageSection1,
-	aboutUsPageSection2,
-	homePageSections,
+    aboutUsPageCards,
+    aboutUsPageSection1, homePageSections
 } from "../components/_data.js";
 
 const AboutUsPage = () => {
