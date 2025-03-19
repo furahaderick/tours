@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="container text-center">
 				<div>
 					<div>
-						<FaPhoneVolume className="mx-1" /> 5555-5555-5555
+						<FaPhoneVolume className="mx-1" /> +250 780 966 017
 					</div>
 					<div>
 						<FaEnvelope className="mx-1" /> elena-safaris@eastafrica.com
