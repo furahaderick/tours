@@ -33,7 +33,8 @@ const ZPattern = ({
 							<img
 								// style={{ width: "500px", height: "350px" }}
 								src={section.image}
-								alt={`Section ${index + 1}`}
+								// alt={`Section ${index + 1}`}
+								alt="Elena Safaris"
 								className="img-fluid rounded"
 							/>
 						</div>
