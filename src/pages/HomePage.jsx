@@ -8,7 +8,7 @@ const HomePage = () => {
 	return (
 		<>
 			<Hero
-				heading="Elena Safaris, Explore East Africa"
+				heading="Explore East Africa"
 				backgroundImage="https://images.pexels.com/photos/7235413/pexels-photo-7235413.jpeg?auto=compress&cs=tinysrgb&w=2000"
 				isHome={true}
 			/>
