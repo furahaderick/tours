@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = ({
 	heading,
 	subheading = "",
@@ -57,7 +59,12 @@ const Hero = ({
 							style={buttonStyle}
 							className="btn btn-outline-light btn-lg mt-3"
 						>
-							Book Now
+							<Link
+								style={{ textDecoration: "none", color: "black" }}
+								to={"mailto:ingabire.om@gmail.com"}
+							>
+								Book Now
+							</Link>
 						</button>
 					</>
 				) : (
