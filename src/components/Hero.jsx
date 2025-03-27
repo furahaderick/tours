@@ -55,17 +55,14 @@ const Hero = ({
 							</mark>
 							, your trusted guide into East Africa.
 						</p>
-						<button
-							style={buttonStyle}
-							className="btn btn-outline-light btn-lg mt-3"
-						>
-							<Link
-								style={{ textDecoration: "none", color: "black" }}
-								to={"mailto:ingabire.om@gmail.com"}
+						<Link to="mailto:ingabire.om@gmail.com">
+							<button
+								style={buttonStyle}
+								className="btn btn-outline-light btn-lg mt-3"
 							>
 								Book Now
-							</Link>
-						</button>
+							</button>
+						</Link>
 					</>
 				) : (
 					<p className="lead">{subheading}</p>
