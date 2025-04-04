@@ -5,6 +5,13 @@ const Navbar = () => {
 		<nav className="container navbar sticky-top navbar-expand-lg bg-body-tertiary py-2 px-1">
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
+					<img
+						width={30}
+						height={24}
+						class="d-inline-block align-text-top"
+						src="/africa.svg"
+						alt="logo"
+					/>
 					Elena Safaris
 				</Link>
 				<button
